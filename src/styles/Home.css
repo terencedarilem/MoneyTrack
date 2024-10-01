@@ -1,0 +1,145 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f6f9;
+  color: white; /* Couleur par défaut pour le texte */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background-color: #004085; /* Couleur plus sombre pour les finances */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero-section {
+  background-image: url('https://img.freepik.com/premium-vector/stock-market-economic-graph-with-diagrams-business-financial-concepts-reports-abstract-technology-communication-concept-background_29865-1321.jpg?semt=ais_hybrid');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  min-height: calc(100vh - 100px);
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: white; /* Assurez-vous que le h1 est en blanc */
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: white; /* Assurez-vous que le texte du paragraphe est également en blanc */
+}
+
+.cta-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+/* Features section */
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 0 50px;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
+
+.feature img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+/* Dashboard preview */
+.dashboard-preview {
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.dashboard-preview img {
+  max-width: 80%;
+}
+
+/* Footer */
+.footer {
+  background-color: #004085;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: auto;
+}
+
+.footer nav {
+  margin-top: 10px;
+}
+
+.footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #ffc107;
+}
+.dashboard-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px; /* Si vous souhaitez ajouter de l'espace au-dessus */
+  padding: 50px; /* Pour le rembourrage autour du contenu */
+}
+
+.left-preview {
+  max-width: 60%; /* Limite la largeur de la section gauche */
+}
+
+.right-preview {
+  max-width: 30%; /* Limite la largeur de la section droite */
+}

@@ -1,0 +1,19 @@
+.add-transaction-form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+  }
+  
+  .add-transaction-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .add-transaction-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+  }
+  
