@@ -38,16 +38,18 @@ button:hover {
   background-color: #0056b3;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+
+.home-container {
+  width: 102%; /* Augmente la largeur du conteneur à 90% de l'écran */
+  max-width: 1400px; /* Définit une largeur maximale pour limiter l'agrandissement sur les grands écrans */
+  margin: 0 auto; /* Centre horizontalement le conteneur */
+
 }
 
 header {
   background-color: #007bff;
   color: white;
-  padding: 20px;
+  padding: 50px;
   text-align: center;
   display: flex;
   justify-content: space-between;
@@ -77,19 +79,27 @@ footer {
   margin-top: auto;
 }
 
-.app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+footer a {
+  color: #fff; /* Assurer que les liens sont en blanc */
 }
 
-h1 {
-  font-size: 2rem;
-  color: #333;
+footer a:hover {
+  text-decoration: underline; /* Ajout d'un effet visuel au survol */
 }
 
-p {
-  font-size: 1rem;
-  line-height: 1.5;
+footer .contact-info,
+footer .global-impact,
+footer .partners {
+  margin-bottom: 15px; /* Espacement entre les sections du footer */
 }
 
+footer h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: white; /* Assurer que les titres sont en blanc */
+}
+
+footer p {
+  margin-bottom: 5px;
+  color: white; /* Uniformiser les couleurs */
+}

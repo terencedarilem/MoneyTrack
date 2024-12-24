@@ -1,0 +1,61 @@
+.auth-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .auth-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .auth-buttons button {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .auth-buttons .active-button {
+    font-weight: bold;
+    opacity: 0.9;
+  }
+  
+  .auth-buttons button:hover {
+    opacity: 1;
+  }
+  
+  .auth-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    opacity: 0.8;
+  }
+  
